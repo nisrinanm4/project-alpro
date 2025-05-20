@@ -111,7 +111,7 @@ void tambahFilm(){
     cin >> newFilm.tahun;
 
     cin.ignore();
-    cout << "Input Genre : ";
+    cout << "Genre : ";
     getline(cin, newFilm.genre); 
 
     // Validasi tipe pasukan
